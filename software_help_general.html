@@ -12,10 +12,22 @@
     <div>
         <h1>Help</h1>
         <P>
-            Almost Done！
+            <a href="#common_problem">Common Problem</a>
         </P>
     </div>
-    
+
+    <div>
+        <p id="#common_problem">Common Problem</p>
+        <p>
+            1.There is no sound when the client plays: please try to change the rtsp playing protocol of the rtsp player to UDP, and we also recommend using UDP.
+        </p>
+        <p>
+            2.The client player is stuck: because each player processes rtsp differently, some players cannot accept the data sent by benapp. Please try to replace another player. VLC is recommended.
+        </p>
+        <p>
+            3.Motion detection does not take effect: the effective condition of motion detection is that when a target changes for 0.5 - 1.0 seconds, the motion detection will take effect. If it does not take effect, please increase the motion detection sensitivity. At the same time, it should be noted that too small targets will not be included in the mobile detection scope. Please adjust the mobile detection configuration according to the actual environment.
+        </p>
+    </div>
 </div>
 </body>
 </html>
