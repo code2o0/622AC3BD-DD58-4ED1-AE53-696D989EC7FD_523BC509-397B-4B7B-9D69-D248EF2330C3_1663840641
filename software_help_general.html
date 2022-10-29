@@ -9,33 +9,43 @@
 </head>
 <body>
     <div style="margin-bottom: 20%;">
+        
         <div>
             <h1>Help</h1>
-            <P>
-                <a href="#common_problem">Common Problem</a>
-            </P>
         </div>
     
         <div>
-            <p id="#common_problem">Common Problem</p>
+            <p id="#common_problem">common problem</p>
             <p>
-                1. There is no sound in the client player: Please try to change the rtsp playing protocol of the rtsp player to UDP, and we also recommend using UDP.
+                1. The client player has no sound when playing: Please try to change the rtsp playback protocol of the rtsp player to UDP, and we also recommend using UDP.
             </p>
             <p>
-                2. The client player is prohibited from playing the screen: Since each player handles RTSP differently, please try the following methods to solve the problem
+                2. The client player is prohibited from playing the screen: Since each player handles RTSP differently, please try the following methods:
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;(1) Please try to set the player's RTSP playback protocol to UDP
+                    &nbsp;&nbsp;&nbsp;&nbsp;(1)Please try to set the RTSP playback protocol of the player to UDP.
                 </p>
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;(2) Please try to set the player's decoder to hard/soft decoding
+                    &nbsp;&nbsp;&nbsp;&nbsp;(2)Please try to set the decoder of the player to hard/soft decoding.
                 </p>
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;(3) Please try other players. We recommend VLC players
+                    &nbsp;&nbsp;&nbsp;&nbsp;(3)Please try another player, we recommend VLC player.
                 </p>
             </p>
             <p>
-                3. The motion detection does not take effect: The effective condition of the motion detection is that when a target changes for 0.5 - 1.0 seconds, the motion detection will take effect. If it does not take effect, please increase the motion detection sensitivity. At the same time, it should be noted that too small targets will not be included in the mobile detection scope. Please adjust the mobile detection configuration according to the actual environment.
+                3.Motion detection does not take effect: The effective condition of motion detection is that when a target changes for 0.5 - 1.0 seconds, the motion detection detection will take effect. If it does not take effect, please increase the motion detection sensitivity. At the same time, it should be noted that targets that are too small will not be included in the motion detection detection range. Please adjust the motion detection configuration according to the actual environment.
             </p>
+            <p>
+                4.About face recognition: In order to optimize the performance of the device during recording and save power consumption, we have set up face detection and detection result notifications when appropriate.
+            </p>
+            <p>
+                5.About face matching: In order to reduce the delay of the picture, we set about 3 seconds to perform face matching detection by default, and if we detect that the number of faces has not changed at the same time, that is to say, there is always a certain number of faces in the picture. face, at this time we will only perform an accurate matching detection.
+            </p>
+            <p>
+                6.About the setting of the face library: If the face picture you select is too large, it may take a long time to detect, we recommend using a picture with a size of about 1024x1024 and a face.
+            </p>
+        </div>
+        <div>
+            <h3>If you still have unresolved doubts, please contact us, we are happy to serve you! Contact email：code_200@163.com</h3>
         </div>
     </div>
 </body>
